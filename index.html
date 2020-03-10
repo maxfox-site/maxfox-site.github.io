@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 .container {
   position: relative;
-}
-
-.topleft {
-  position: relative;
-  top: 18px;
-  left: 36px;
-  font-size: 24px;
-  align: left;
+  text-align: center;
   color: white;
 }
 
-img { 
-  width: auto;
-  height: auto;
- 
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>
 </head>
@@ -28,23 +47,13 @@ img {
 <a href="/pastwork.html">Work</a>  <a href="/resume.html">Résumé</a>  <a href="/contact.html">Contact</a></p>
 <p>
 
-  <div class="container">        
-     <div class="row">
-      
-        <div class="col-md-6">
-           <img src="/index2.png" alt="test" class="img-responsive">
-          
-            <div class="carousel-caption">
-              <h1>I am a writer, editor, and translator.<br>
-             I have over a decade of experience composing, copy<br>
-                editing, proofreading, fact-checking, ghostwriting,<br> 
-                consulting, and strategizing on texts for the public.<br>
-              I can help you publish with confidence.</h1>
-            </div>
-          
-         </div>
-
-  
+  <div class="container">
+  <img src="index2.png" alt="Snow" style="width:100%;">
+  <div class="top-left">I am a writer, editor, and translator.<br>
+I have over a decade of experience composing, copy editing, proofreading, fact-checking, ghostwriting, consulting, and strategizing on texts for the public.
+<br>I can help you publish with confidence.
+</div>
+</div>
 
 </body>
 </html>
